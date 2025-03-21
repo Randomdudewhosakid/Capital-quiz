@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/images/background.jpg");
+  background-size: 1500px 1500px;
+  margin: 0px 0px 0px 0px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 5px;
+}
+
+#totalscore {
+  font-size: medium;
+  margin-left: 16px;
+  margin-bottom: 0px;
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 25px;
+  margin-top: 16px;
+}
+
+p {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.padding {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit {
+  font-family: "Nunito";
+  font-weight: 800;
+  letter-spacing: 2px;
+  background-color: orange;
+  border-radius: 5px;
+  border-color: white;
+  border-width: 0px;
+  color: white;
+  height: 30px;
+  width: 500px;
+  margin-top: 16px;
+}
+
+#capital {
+  text-align: center;
+  font-family: "Nunito";
+  border-color: dodgerblue;
+  border-radius: 5px;
+}
